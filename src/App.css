@@ -1,30 +1,192 @@
-.App {
-  text-align: center;
+body {
+  background-color: #101618;
+}
+* {
+  font-family: 'Saira', sans-serif;
+  color: #fff;
 }
 
+.fontAbril {
+  font-family: 'Abril Fatface', cursive;
+}
+.fontLibre {
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+/* Navbar */
 
 
+.hamIcon {
+  font-size: 1.5em;
+  color: #fff;
+}
+.navbar .nav-link{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  margin-right: 29px;
+  transition: 0.2s;
 }
 
-.App-link {
-  color: #61dafb;
+a.nav-link:hover{
+  padding-bottom: 3px;
+  border-bottom: 2px solid white;
 }
 
-@keyframes App-logo-spin {
+
+.btn-register {
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  background: #006494;
+  color: #fff;
+  padding: 8px 20px;
+  transition: all 0.6s;
+  margin-right: 5px ;
+}
+
+.btn-register:hover {
+ color: #fff;
+ background: #0380ba;
+
+}
+
+.btn-login {
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  background: transparent;
+  padding: 8px 20px;
+  transition: background-color .3s;
+}
+.btn-login:hover {
+  background-color: #006494;
+  color: #fff;
+}
+.btn-login:active {
+  animation: gradient 90ms;
+      background: #006494;
+      color: #006494;
+      box-shadow: none;
+}
+@keyframes gradient {
+0% {
+background: radial-gradient(circle at center, rgba( 255, 125 , 125, 0 ) 0%, #006494 0%, #006494 100%);
+}
+25% {
+background: radial-gradient(circle at center, #006494 24%, #006494 25%, #006494 100%);
+}
+50% {
+background: radial-gradient(circle at center, #0775a8 49%, #006494 50%, #006494 100%);
+}
+75% {
+background: radial-gradient(circle at center, #0d87bf 74%, #006494 75%, #006494 100%);
+}
+100% {
+color: #fff;
+background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494 100%);
+}
+}
+
+.navbar-fixed{
+  background-color: #003554;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: all 0.6s;
+  box-shadow: 0px 3px 16px 0px rgba( 0, 0, 0, 0.1);
+}
+
+/* header */ 
+
+.contenedorHeader {
+  margin-top: 70px;
+}
+
+
+.RowHeader {
+  margin-top: 150px;
+}
+.container-h1principal {
+
+}
+
+.h1Principal {
+  color: #fff;
+  letter-spacing: 0.3625rem;
+  font-size: 4.2em;
+  
+}
+
+.typing-achine {
+  display: block;
+  
+  white-space: nowrap;
+  border-right: 1px solid;
+  width: 4ch;
+
+  animation: typing 1s steps(4), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
   from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+    width: 0;
   }
 }
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/*lado de la imagen*/
+.container-image {
+  height: 400px;
+}
+
+.imagen-esteban {
+  height: 400px;
+  -webkit-filter: grayscale(1); /* Webkit */
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* W3C */
+}
+
+
+/* scroll arriba */
+
+#botonArriba {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  font-size: 50px;
+  color: #5C6B73;
+}
+
+/* miniAreaContacto*/
+
+.miniAreaContacto {
+  margin-top: 160px;
+
+}
+.contact-p {
+  margin-bottom: 0;
+}
+
+.contenedor-links {
+  justify-content: center;
+}
+.links-contact{
+   display: inline !important;
+   width: 10px;
+}
+.links-contact i:hover{
+  color: #5C6B73;
+ 
+}
+.first-item-contact {
+  padding-left: 0;
+}
+
