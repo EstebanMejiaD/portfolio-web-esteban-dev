@@ -108,9 +108,7 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
 .RowHeader {
   margin-top: 150px;
 }
-.container-h1principal {
 
-}
 
 .h1Principal {
   color: #fff;
@@ -119,14 +117,31 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
   
 }
 
+.h1animation {
+  animation-name: animacionH1 ;
+  animation-duration: 2.5s;
+}
+
+@keyframes animacionH1 {
+  from {
+    color: transparent;
+    margin-top: 100px;
+  }
+  to {
+    color: #fff;
+    margin-top: 0;
+  }
+
+}
+
 .typing-achine {
   display: block;
-  
+  font-size: 0.87em;
+  margin-bottom: 15px;
   white-space: nowrap;
-  border-right: 1px solid;
+  border-right: 2px solid;
   width: 4ch;
-
-  animation: typing 1s steps(4), blink .5s infinite step-end alternate;
+  animation: typing 1s steps(4), blink .3s infinite step-end alternate;
   overflow: hidden;
 }
 
@@ -144,11 +159,15 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
 
 /*lado de la imagen*/
 .container-image {
-  height: 400px;
+  margin-top: 30px;
+  height: 250px;
+  width: 250px;
+  background-color: transparent;
+  text-align: center;
 }
 
 .imagen-esteban {
-  height: 400px;
+  height: 90%;
   -webkit-filter: grayscale(1); /* Webkit */
     filter: gray; /* IE6-9 */
     filter: grayscale(1); /* W3C */
@@ -168,7 +187,7 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
 /* miniAreaContacto*/
 
 .miniAreaContacto {
-  margin-top: 160px;
+  margin-top: 180px;
 
 }
 .contact-p {
@@ -177,7 +196,13 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
 
 .contenedor-links {
   justify-content: center;
+  animation-name: contactAnimation;
+  animation-duration: 3s;
 }
+
+
+
+
 .links-contact{
    display: inline !important;
    width: 10px;
@@ -190,3 +215,21 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
   padding-left: 0;
 }
 
+
+
+@media (max-width: 500px) {
+  
+.h1Principal {
+  
+  font-size: 3.4em;
+  
+}
+.RowHeader {
+  margin-top: 10px;
+}
+
+#botonArriba {
+  font-size: 30px;
+  right: 25px;
+}
+}
