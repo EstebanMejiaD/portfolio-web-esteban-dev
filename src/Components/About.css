@@ -1,0 +1,72 @@
+.title-about {
+font-size: 5rem;
+margin: 180px 0 100px 0;
+}
+
+
+/*
+foto principal
+*/
+.imagenProfile-about {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #999;
+    object-fit: cover;
+}
+
+.section-also{
+    margin-left: 25px;
+    margin-top: 40px;
+}
+.option-also {
+    color: rgb(112, 112, 112);
+    
+    transition: color .5s;
+}
+
+.option-also:hover {
+    color: #fff;
+}
+
+
+
+
+.container-photo-principal {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.container-text-about-h5-p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.container-text-about-h5-p h5 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+.container-h5-about {
+    margin-bottom: 40px;
+}
+
+.container-p-text-about {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.parraf-about {
+  font-size: 1.25em;
+}
+
+
+@media (max-width: 530px) {
+    .container-photo-principal {
+        margin-left: 0;
+        
+    }
+    .container-text-about-h5-p {
+        padding: 20px;
+        text-align: center;
+    }
+}

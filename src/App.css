@@ -4,7 +4,10 @@ body {
 * {
   font-family: 'Saira', sans-serif;
   color: #fff;
+  overflow: visible;
 }
+
+
 
 .fontAbril {
   font-family: 'Abril Fatface', cursive;
@@ -206,6 +209,8 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
 .links-contact{
    display: inline !important;
    width: 10px;
+   font-size: 1.3rem;
+   margin-left: 5px;
 }
 .links-contact i:hover{
   color: #5C6B73;
@@ -213,6 +218,7 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
 }
 .first-item-contact {
   padding-left: 0;
+  margin-left: 0;
 }
 
 
