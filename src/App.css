@@ -120,9 +120,9 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
   
 }
 
-.h1animation {
+/* .h1animation {
   animation-name: animacionH1 ;
-  animation-duration: 2.5s;
+  animation-duration: 5s;
 }
 
 @keyframes animacionH1 {
@@ -135,7 +135,7 @@ background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494
     margin-top: 0;
   }
 
-}
+} */
 
 .typing-achine {
   display: block;

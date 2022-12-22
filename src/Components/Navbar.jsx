@@ -1,15 +1,19 @@
 import React from "react";
 
-
-
 const Navbar = () => {
   return (
-    
     <div>
-      <nav className="navbar navbar-expand-lg fixed-top">
+      <nav
+        data-aos="fade-down"
+        data-aos-duration="2000"
+        className="navbar navbar-expand-lg fixed-top"
+      >
         <div className="container">
-          <a className="navbar-brand text-white fs-3 name-bank fontAbril" href="/">
-           EstebDev.
+          <a
+            className="navbar-brand text-white fs-3 name-bank fontAbril"
+            href="/"
+          >
+            EstebDev.
           </a>
           <button
             className="navbar-toggler"
@@ -48,7 +52,6 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            
           </div>
         </div>
       </nav>

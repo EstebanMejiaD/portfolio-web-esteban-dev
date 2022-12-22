@@ -8,7 +8,14 @@ const Header = () => {
           <div className="col-md-10 container-h1principal">
             <h1 className="fontAbril h1Principal">
               <div className="fontAbril typing-achine">Hey.</div>
-              <div className="fontAbril h1animation">I'm Esteban Mejia and I'm a passionate fullstack web developer jr.</div>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="2000"
+                className="fontAbril h1animation"
+              >
+                I'm Esteban Mejia and I'm a passionate fullstack web developer
+                jr.
+              </div>
             </h1>
           </div>
           {/* <div className="col-md-4">
