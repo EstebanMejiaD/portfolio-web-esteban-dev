@@ -8,6 +8,8 @@ import MiniAreaContact from './Components/MiniAreaContact';
 import ScrollDown from './Components/ScrollDown';
 import About from './Components/About';
 import Skills from './Components/Skills';
+import Works from './Components/Works';
+import Footer from './Components/Footer';
 function App() {
   AOS.init();
   return (
@@ -18,6 +20,8 @@ function App() {
       <ScrollDown />
       <About />
       <Skills />
+      <Works />
+      <Footer />
     </>
   );
 }

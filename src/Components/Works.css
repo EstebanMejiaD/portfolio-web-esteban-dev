@@ -1,0 +1,83 @@
+.works {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.container-project {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.info-project {
+   padding: 0 30px;
+}
+
+.role-project {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4c565c;
+}
+
+.value-project {
+    text-align: right;
+}
+.technologies-project {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4c565c;
+}
+
+
+.container-links-project {
+    margin-top: 15px;
+    text-align: right;
+
+}
+.link-project {
+    padding-left: 7px;
+    padding-right: 7px;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    transition-duration: 1000ms;
+}
+
+.link-project:hover {
+    color: #383f42;
+    border: 2px solid #383f42;
+    
+}
+
+.icon-arraw-project {
+    color: #fff;
+}
+.icon-arraw-project:hover {
+    color: #383f42;
+}
+
+
+.container-imagen-project img {
+    
+    height: 300px;
+    
+    object-fit: cover;
+}
+
+.container-project-right {
+    text-align: right;
+}
+
+.container-project-left {
+    text-align: left;
+}
+
+@media (max-width: 560px) {
+    .container-imagen-project img {
+        height: 200px;
+        
+    }
+    .container-imagen-project  {
+        text-align: center;
+        margin-top: 30px;
+    }
+}

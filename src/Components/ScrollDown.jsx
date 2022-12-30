@@ -13,7 +13,7 @@ const ScrollDown = () => {
   return (
     <div>
       <a href="#headerInicio">
-        <i id="botonArriba" class="bi bi-arrow-down-circle"></i>
+        <i id="botonArriba" class="bi bi-arrow-up-circle"></i>
       </a>
     </div>
   );

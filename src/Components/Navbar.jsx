@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav
         data-aos="fade-down"
         data-aos-duration="2000"
-        className="navbar navbar-expand-lg fixed-top"
+        className="navbar navbar-expand-md fixed-top"
       >
         <div className="container">
           <a
@@ -36,18 +36,18 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">
+                <a className="nav-link" href="#skills">
                   Skill
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#negocios">
+                <a className="nav-link" href="#works">
                   Works
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#comunidad">
+                <a className="nav-link" href="#miniContacto">
                   Contact
                 </a>
               </li>

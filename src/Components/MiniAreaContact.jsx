@@ -3,7 +3,7 @@ import React from "react";
 const MiniAreaContact = () => {
   return (
     <div>
-      <div className="container miniAreaContacto text-center">
+      <div id="miniContacto" className="container miniAreaContacto text-center">
         <div data-aos="fade-right" className="row">
           <p className="contact-p">Esteban Mejia</p>
           <p className="">full stack developer</p>
@@ -51,7 +51,7 @@ const MiniAreaContact = () => {
             data-aos-duration="2500"
             rel="noreferrel"
             className="links-contact"
-            href="https://www.linkedin.com/in/esteban-andres-mej%C3%ADa-de-la-hoz-4515a318b/"
+            href="https://www.facebook.com/esteban.mejia.3192"
           >
             <i class="bi bi-facebook"></i>
           </a>

@@ -31,13 +31,13 @@ const About = () => {
         <h2 data-aos="zoom-in" className="fontAbril title-about text-center">
           My essence
         </h2>
-      </div>
+      
       <div className="row">
         <div className="col-md-4">
           <div className="container-photo-principal">
-            <div className="container">
+            <div className="">
               <div className="row">
-                <div className="col-md-12">
+                  <div className="col-md-12 ">
                   <div
                     data-aos="zoom-in-right"
                     data-aos-duration="2000"
@@ -129,7 +129,7 @@ const About = () => {
                   </div>
                 </div>
                 <div
-                  data-aos="fade-left"
+                  data-aos="zoom-in"
                   data-aos-duration="2000"
                   className="col-md-6"
                 >
@@ -148,6 +148,7 @@ const About = () => {
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 };

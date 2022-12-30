@@ -1,86 +1,92 @@
+/*
+title skills
+*/
+.title-skills {
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
 
 /* section of card info */
-.about {
-    padding: 82px 0;
+/* skills and services */
+.services-section {
+    padding-top: 82px;
+  }
+  
+.skills {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-
-.section__title {
-    text-align: center;
-    padding-bottom: 30px;
+.container-skills-cards {
+    margin-top: 80px;
 }
-
-.section__title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #000;
-    text-transform: capitalize;
-    margin-top: 20px;
-}
-.about .member {
+  
+  .skills .member {
     padding: 30px;
     border-radius: 5px;
-    transition: all .5s;
-}
-
-.about .member:hover {
-    box-shadow: 0 15px 30px rgb(77 87 222 / 30% );
-}
-
-.about .member h4 {
+    
+    transition: 0.5s;
+    box-shadow: 0px 15px 30px rgba(33, 43, 71, 0.3);
+    height: 230px;
+  }
+  .skills .member:hover {
+    box-shadow: 0px 15px 30px rgba(33, 43, 71, 0.8);
+    
+   
+  }
+  
+  .skills .member h4 {
     font-weight: 700;
-    font-size: 25px;
-    text-transform: uppercase;
-    color: #000;
     margin-bottom: 5px;
-}
-
-.about .member .pic {
+    font-size: 20px;
+    color: rgba(135, 77, 228, 1);
+  }
+  
+  .skills .member .pic {
     overflow: hidden;
     width: 180px;
     border-radius: 50%;
-}
-
-.about .member span{
+  }
+  
+  .skills .member span {
     display: block;
-    font-size: 17px;
+    font-size: 15px;
     padding-bottom: 10px;
     font-weight: 500;
-    color: #ccc;
-}
-
-.about .member p{
+  }
+  
+  .skills .member p {
     margin: 10px 0 0 0;
     font-size: 14px;
-    color: #aaa;
-}
-
-.about .member a{
-    transition: ease-in-out 0.3s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50px;
-    width: 38px;
-    height: 38px;
-    border: 1px solid;
-    color: rgb(65, 65, 172);
-}
-
-.about .member a:hover {
-    background-color: rgb(66, 66, 170);
-    color: #aaa;
-}
-.buttom-cardInfo {
-    background: transparent;
-    min-width: 130px !important;
-    height: 37px !important;
-    border: 2px solid #08c6ab;
-    text-decoration: none;
-    resize: both;
-    transition: all .8s;
   }
-  .buttom-cardInfo:hover {
-    color: #000;
-    background: #08c6ab;
+  
+  .skills .member a:hover {
+    background: #0061f2;
+    color: white;
+  }
+  .info-estadisticas {
+    text-align: center;
+  }
+  .info-estadisticas h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #e26e43;
+  }
+  .h3-container {
+    margin-bottom: 20px;
+  }
+
+  .name-skill {
     border-radius: 5px;
+    background-color: #4c565c;
+    display: inline;
+    padding: 5px;
   }
+  .container-skill {
+    display: inline;
+    margin-right: 5px;
+   
+  }
+
+  

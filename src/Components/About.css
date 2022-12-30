@@ -33,14 +33,12 @@ foto principal
 
 
 .container-photo-principal {
-    margin-left: 100px;
+    margin-left: 30px;
+
     margin-bottom: 30px;
 }
 
-.container-text-about-h5-p {
-    padding-left: 100px;
-    padding-right: 100px;
-}
+
 .container-text-about-h5-p h5 {
     text-align: center;
     font-size: 1.7rem;
@@ -49,10 +47,7 @@ foto principal
     margin-bottom: 40px;
 }
 
-.container-p-text-about {
-    padding-left: 100px;
-    padding-right: 100px;
-}
+
 
 
 .parraf-about {
@@ -67,6 +62,9 @@ foto principal
     }
     .container-text-about-h5-p {
         padding: 20px;
+        text-align: center;
+    }
+    .contenedor-imagen {
         text-align: center;
     }
 }
