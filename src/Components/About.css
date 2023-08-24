@@ -1,70 +1,74 @@
 .title-about {
-font-size: 5rem;
-margin: 180px 0 100px 0;
+  font-size: 5rem;
+  margin: 180px 0 100px 0;
 }
-
 
 /*
 foto principal
 */
 .imagenProfile-about {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: 2px solid #999;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /* border: 2px solid #999; */
+
+  width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+  height: 100%; /* La imagen ocupará todo el alto del contenedor */
+  object-fit: cover; /* Mantiene las proporciones y corta si es necesario */
+  position: absolute; /* Permite posicionar la imagen dentro del contenedor */
+  top: 0; /* Coloca la imagen en la parte superior del contenedor */
+  left: 0;
 }
 
-.section-also{
-    margin-left: 25px;
-    margin-top: 40px;
+.section-also {
+  margin-left: 25px;
+  margin-top: 40px;
 }
 .option-also {
-    color: rgb(112, 112, 112);
-    
-    transition: color .5s;
+  color: rgb(112, 112, 112);
+
+  transition: color 0.5s;
 }
 
 .option-also:hover {
-    color: #fff;
+  color: #fff;
 }
-
-
-
 
 .container-photo-principal {
-    margin-left: 30px;
+  margin-left: 30px;
 
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
-
 
 .container-text-about-h5-p h5 {
-    text-align: center;
-    font-size: 1.7rem;
+  text-align: center;
+  font-size: 1.7rem;
 }
 .container-h5-about {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
-
-
+.contenedor-imagen {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
 
 .parraf-about {
   font-size: 1.25em;
 }
 
-
 @media (max-width: 530px) {
-    .container-photo-principal {
-        margin-left: 0;
-        
-    }
-    .container-text-about-h5-p {
-        padding: 20px;
-        text-align: center;
-    }
-    .contenedor-imagen {
-        text-align: center;
-    }
+  .container-photo-principal {
+    margin-left: 0;
+  }
+  .container-text-about-h5-p {
+    padding: 20px;
+    text-align: center;
+  }
+  .contenedor-imagen {
+    text-align: center;
+  }
 }
